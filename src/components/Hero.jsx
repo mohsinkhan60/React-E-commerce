@@ -7,6 +7,7 @@ import { heroIcons } from "../constant";
 import { BackgroundCircles, Gradient } from "./design/Hero";
 import Generating from "./design/Generating";
 import Notification from "./design/Notification";
+import CompanyLogo from "./design/CompanyLogo";
 
 export const Hero = () => {
 
@@ -86,6 +87,7 @@ export const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
+        <CompanyLogo  className="hidden relative z-10 mt-20 lg:block" />
       </div>
     </Section>
   );
