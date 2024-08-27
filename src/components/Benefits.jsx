@@ -15,7 +15,7 @@ export const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((benefit) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] "
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
                 backgroundImage: `url(${benefit.backgroundUrl})`,
               }}
@@ -38,12 +38,21 @@ export const Benefits = () => {
                 </div>
               </div>
               {benefit.light && <GradientLight />}
-              <div className="absolute inset-0.5 bg-n-8" style={{ clipPath: `url(#benefits)` }}>
-                  <div className="absolute opacity-0 inset-0 transition-opacity hover:opacity-10">
-                     {benefit.imageUrl && (
-                        <img src={benefit.imageUrl} width={380} height={362} alt="image" className="w-full h-full object-cover" />
-                     )}
-                  </div>
+              <div
+                className="absolute inset-0.5 bg-n-8"
+                style={{ clipPath: `url(#benefits)` }}
+              >
+                <div className="absolute opacity-0 inset-0 transition-opacity hover:opacity-20">
+                  {benefit.imageUrl && (
+                    <img
+                      src={benefit.imageUrl}
+                      width={380}
+                      height={362}
+                      alt="image"
+                      className="w-full h-full object-cover"
+                    />
+                  )}
+                </div>
               </div>
 
               <ClipPath />
