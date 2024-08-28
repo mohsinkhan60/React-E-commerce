@@ -43,20 +43,22 @@ import {
      url: "#features",
    },
    {
-     id: "1",
+    id: "1",
+    title: "How to use",
+    url: "#How to use",
+  },
+   {
+     id: "2",
      title: "Pricing",
      url: "#pricing",
    },
-   {
-     id: "2",
-     title: "How to use",
-     url: "#how-to-use",
-   },
+
    {
      id: "3",
-     title: "Roadmap",
-     url: "#roadmap",
+     title: "Footer",
+     url: "#Footer",
    },
+
    {
      id: "4",
      title: "New account",

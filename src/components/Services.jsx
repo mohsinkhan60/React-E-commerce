@@ -8,7 +8,7 @@ import Section from "./Section";
 
 export const Services = () => {
   return (
-    <Section id="How-to-use">
+    <Section id="How to use">
       <div className="container">
         <Heading
           title="Generative AI made for creators."
