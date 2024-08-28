@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
+
 export const Heading = ({className, title, text}) => {
   return (
     <div className={`${className} max-w-[50rem] mx-auto mb-12 lg:mb-20`}>
